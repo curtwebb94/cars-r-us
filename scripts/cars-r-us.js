@@ -21,8 +21,8 @@ document.addEventListener(
 export const carsRUS = () => {
     return `
 <article class ="Selectors">
-<h1>Cars-r-Us: Personal Car Builder</h1>
-<h2><u>Options</u></h2>
+<h1>🚗Cars-r-Us: Personal Car Builder</h1>
+<h2><u>Options:</u></h2>
 <br></br><br></br>
 <section class = "options">
 <div id = "paint">${Paint()}</div>
@@ -36,9 +36,9 @@ export const carsRUS = () => {
 </article>
 <br></br><br></br>
 <div class="customOrdersHolder">
-    <h2>Custom Car Orders</h2>
+    <h2>✍️ Custom Car Orders:</h2>
         <section class="customOrders">
-        ${orderBuilder()}         
+        <u>${orderBuilder()}</u>  
         </section>
      </div>`
 
