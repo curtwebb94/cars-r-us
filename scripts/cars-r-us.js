@@ -22,7 +22,7 @@ export const carsRUS = () => {
     return `
 <article class ="Selectors">
 <h1>Cars-r-Us: Personal Car Builder</h1>
-<h2>Options</h2>
+<h2><u>Options</u></h2>
 <br></br><br></br>
 <section class = "options">
 <div id = "paint">${Paint()}</div>
